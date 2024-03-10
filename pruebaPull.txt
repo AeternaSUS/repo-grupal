@@ -1,1 +1,1 @@
-oli
+el pull sirve bien, deben de hacer el pull en la rama main, ya que la rama de gitHub se llama main por lo que cuando clonen el repositorio la rama en la que trabajaran sera main y ya no master
