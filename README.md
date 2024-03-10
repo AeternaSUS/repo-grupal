@@ -1,4 +1,4 @@
-# Repositorio grupal
+# Repositorio grupal (～￣ ▽ ￣)～
 
 ## Descripcion
 
