@@ -2,15 +2,6 @@ package estructura_de_datos;
 
 public class ListaEnlazada<T> {
 
-    public static class Nodo<T> {
-        Nodo<T> siguiente;
-        T dato;
-
-        public Nodo(T dato) {
-            this.dato = dato;
-        }
-    }
-
     private Nodo<T> cabeza;
     private static int size = 0;
 

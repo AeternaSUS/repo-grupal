@@ -1,15 +1,6 @@
 package estructura_de_datos;
 
 public class Pila<T> {
-    private static class Nodo<T> {
-        Nodo<T> siguiente;
-        T dato;
-
-        public Nodo(T dato) {
-            this.dato = dato;
-        }
-    }
-
     private Nodo<T> cabeza;
     private static int size = 0;
 
@@ -59,6 +50,6 @@ public class Pila<T> {
         pila.mostrar();
 
         System.out.println("length -> " + pila.length());
-        
+
     }
 }
