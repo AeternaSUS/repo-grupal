@@ -34,6 +34,7 @@ public class Pila<T> {
         Nodo<T> temporal = cabeza;
         cabeza = cabeza.siguiente;
         temporal.siguiente = null;
+        size--;
         return temporal.dato;
     }
 
