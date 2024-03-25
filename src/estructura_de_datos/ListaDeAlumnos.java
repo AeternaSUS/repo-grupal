@@ -107,8 +107,11 @@ public class ListaDeAlumnos extends JFrame {
             }
 
             JOptionPane.showMessageDialog(null, "Lista ordenada");
+        } catch (NumberFormatException n) {
+            JOptionPane.showMessageDialog(null, "Por favor ingrese un numero valido");
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            JOptionPane.showMessageDialog(null, "Ha ocurrido un error " + e.getMessage());
+
         }
     }
 
